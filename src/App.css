@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.App-main {
+  padding: 28px 20px;
 }
 
 .App-logo {
@@ -10,14 +10,16 @@
 }
 
 .App-header {
-  padding: 0 16px;
+  padding: 16px 16px;
   background-color: #181819;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   font-size: calc(10px + 2vmin);
   color: white;
-  height: 90px;
+  gap: 12px;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -54,8 +56,15 @@
   animation: shine 1s linear infinite;
 }
 
+@media (max-width: 600px) {
+  .App-header-logo-text {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
 @keyframes shine {
-  to {
+  from {
     background-position: 200% center;
   }
 }
@@ -69,7 +78,15 @@
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-  padding: 28px;
+  padding: 24px;
+}
+
+@media (max-width: 600px) {
+  .App-header-button {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+  }
 }
 
 .App-header-button svg {
@@ -78,13 +95,27 @@
   fill: white;
 }
 
+.App-header-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+
 .App-header-profile {
   margin-left: auto;
 }
 
 .App-header-search {
-  padding: 0 28px;
   width: 450px;
+}
+
+@media (max-width: 600px) {
+  .App-header-search {
+    width: auto;
+    flex:1;
+  }
 }
 
 .App-header-search input {
@@ -102,4 +133,28 @@
 
 .App-header-search input::placeholder {
   color: black;
+}
+
+.App-main-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.App-main-content {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.App-main-content > div:first-child {
+  flex: 50%;
+}
+
+.App-main-content > div:last-child {
+  flex: 1;
 }
