@@ -19,6 +19,7 @@ This is a repository for a site of a studio that makes games and apps. The name 
     <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/background_account-creator.png">
     <img alt="Projects image" src="./public/readme_imgs/background_account-creator.png">
   </picture>
+</div>
 
 | **Project name** | **Reason that this project exist** |
 | --- | --- |
@@ -34,6 +35,7 @@ This is a repository for a site of a studio that makes games and apps. The name 
   <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/emailverification.png">
   <img alt="Mail" src="./public/readme_imgs/emailverification.png">
 </picture>
+</div>
 
 Informatioa have an emailer that can send emails to persons on the time that this is needed.
 
