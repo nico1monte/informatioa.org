@@ -1,71 +1,43 @@
-# Getting Started with Create React App
+# About this repository
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/informatioa.2.png" width="700px">
+    <img alt="Informatioa Logo" src="./public/readme_imgs/informatioa.2.png" width="600px">
+  </picture>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### WARNING, THIS CAN BE SPOILERS. PLEASE, DON'T SAY TO OTHERS PERSONS ABOUT THIS.
 
-## Available Scripts
+This is a repository for a site of a studio that makes games and apps. The name that you can see on the repository name is Informatioa, Yes, Informatioa.
 
-In the project directory, you can run:
 
-### `npm start`
+### THIS INFORMATION DON'T HAVE MORE SPOILERS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Projects
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/background_account-creator.png">
+    <img alt="Projects image" src="./public/readme_imgs/background_account-creator.png">
+  </picture>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| **Project name** | **Reason that this project exist** |
+| --- | --- |
+| City Update | A new game which simulates a city of Montevideo. |
+| DevMessanger | App for talk with developers. |
+| Informatioa Sites | A site which on this site you can find sites of other persons or create your own site. |
+| Mechadog | A bot of Discord which can make much things. You can use it in your server. |
+| ChannelXBot | My Telegram bot. |
 
-### `npm test`
+## Emailer
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/emailverification.png">
+  <img alt="Mail" src="./public/readme_imgs/emailverification.png">
+</picture>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Informatioa have an emailer that can send emails to persons on the time that this is needed.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# informatioa_emailer
+Emailer repository:
+[Repository on GitHub](https://github.com/nico1monte/informatioa_emailer)
