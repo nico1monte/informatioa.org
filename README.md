@@ -1,4 +1,7 @@
 # About this repository
+
+ENG | [ESP](https://github.com/nico1monte/informatioa.org/blob/dev/README.es_ES.md)
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./public/readme_imgs/informatioa.2.png" width="700px">
