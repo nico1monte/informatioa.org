@@ -25,9 +25,9 @@ Este es el repositorio del sitio de un estudio que crea juegos y aplicaciones. E
 
 | **Nombre del proyecto** | **Razón de la existencia de este proyecto** |
 | --- | --- |
-| Actualización de la ciudad | Un nuevo juego que simula la ciudad de Montevideo. |
+| City Update | Un nuevo juego que simula la ciudad de Montevideo. |
 | DevMessanger | Aplicación para chatear con desarrolladores. |
-| Sitios de información | Un sitio donde puedes encontrar sitios de otras personas o crear el tuyo propio. |
+| Informatioa Sites | Un sitio donde puedes encontrar sitios de otras personas o crear el tuyo propio. |
 | Mechadog | Un bot de Discord que puede hacer muchas cosas. Puedes usarlo en tu servidor. |
 | ChannelXBot | Mi bot de Telegram. |
 
