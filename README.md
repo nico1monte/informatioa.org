@@ -1,6 +1,8 @@
 # About this repository
 
+<div align="cneter">
 ENG | [ESP](https://github.com/nico1monte/informatioa.org/blob/dev/README.es_ES.md)
+</div>
 
 <div align="center">
   <picture>
