@@ -42,9 +42,9 @@ function App() {
           <button type="button" className="App-header-button App-header-profile">
             <ProfileIcon />
           </button>
-          <button type="button" className="App-header-button App-header-contacts">
+          <a href="https://t.me/+lUostc2WfHIzMTdh" className="App-header-button App-header-contacts">
             <ContactsIcon />
-          </button>
+          </a>
           <div className="App-header-search">
             <input
               type="text"
