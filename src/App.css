@@ -2,12 +2,18 @@
   padding: 36px 20px;
 }
 
+@media (max-width: 600px) {
+  .App-main {
+    padding: 20px 12px;
+  }
+}
+
 .App-logo-container {
   height: 60px;
   width: 80px;
-  margin-right: 20px;
   overflow: hidden;
   position: relative;
+  transform: translateY(2px);
 }
 
 .App-logo {
@@ -29,8 +35,14 @@
   flex-wrap: wrap;
   font-size: calc(10px + 2vmin);
   color: white;
-  gap: 12px;
+  gap: 12px 20px ;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding: 20px 12px;
+  }
 }
 
 
@@ -60,7 +72,6 @@
   background: linear-gradient(to right, #FFF 20%, #3299fb 40%, #3299fb 60%, #FFF 80%);
   background-size: 200% auto;
 
-  color: #000;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -144,7 +155,6 @@
   height: 100%;
   border: none;
   background-color: white;
-  color: black;
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
@@ -153,7 +163,7 @@
 }
 
 .App-header-search input::placeholder {
-  color: #484848;
+  color: #2f2f2f;
 }
 
 .App-main-title {
@@ -162,7 +172,6 @@
   font-weight: 700;
   margin: 0;
   margin-bottom: 20px;
-  color: #333;
 }
 
 .App-main-content {

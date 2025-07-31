@@ -25,13 +25,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-logo-container">
-          <video
-            src={'/icons/logo-animated.mp4'}
+          <img
+            src={'/icons/logo-animated.gif'}
             className="App-logo"
-            autoPlay
-            loop
-            muted
-            playsInline
             alt="logo"
           />
         </div>
