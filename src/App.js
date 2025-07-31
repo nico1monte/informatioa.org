@@ -11,8 +11,8 @@ import './App.css';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  
-  const filteredProjects = projects.filter(project => 
+
+  const filteredProjects = projects.filter(project =>
     project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     project.description.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -24,7 +24,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'/logo.jpg'} className="App-logo" alt="logo" />
+        <div className="App-logo-container">
+          <video
+            src={'/icons/logo-animated.mp4'}
+            className="App-logo"
+            autoPlay
+            loop
+            muted
+            playsInline
+            alt="logo"
+          />
+        </div>
         <h1 className="App-header-logo-text">
           Informatioa
         </h1>
@@ -36,9 +46,9 @@ function App() {
             <ContactsIcon />
           </button>
           <div className="App-header-search">
-            <input 
-              type="text" 
-              placeholder="Search Projects" 
+            <input
+              type="text"
+              placeholder="Search Projects"
               value={searchTerm}
               onChange={handleSearchChange}
             />
@@ -49,7 +59,10 @@ function App() {
       <main className="App-main">
         <h2 className="App-main-title">All projects of Informatioa:</h2>
         <div className='App-main-content'>
-          {filteredProjects.length === 0 && <div>No projects found</div>}
+          {filteredProjects.length === 0 && <div className="App-error-on-find-container">
+            <img className='App-error-on-find' src={'/icons/error_on_find.png'} alt="no projects" />
+            No projects found
+          </div>}
           <div>
             {
               filteredProjects.map(project => (
