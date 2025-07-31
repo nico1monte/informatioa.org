@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import ProfileIcon from './icons/profile.svg';
 import ContactsIcon from './icons/contacts.svg';
 import projects from './projects.json';
@@ -9,6 +10,17 @@ import './App.css';
 
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+  
+  const filteredProjects = projects.filter(project => 
+    project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    project.description.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +36,12 @@ function App() {
             <ContactsIcon />
           </button>
           <div className="App-header-search">
-            <input type="text" placeholder="Search Projects" />
+            <input 
+              type="text" 
+              placeholder="Search Projects" 
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
           </div>
         </div>
       </header>
@@ -32,14 +49,15 @@ function App() {
       <main className="App-main">
         <h2 className="App-main-title">All projects of Informatioa:</h2>
         <div className='App-main-content'>
+          {filteredProjects.length === 0 && <div>No projects found</div>}
           <div>
             {
-              projects.map(project => (
+              filteredProjects.map(project => (
                 <ProjectCard key={project.id} project={project} />
               ))
             }
           </div>
-          <ProjectsCube projects={projects} />
+          {filteredProjects.length > 0 && <ProjectsCube projects={filteredProjects} />}
         </div>
       </main>
     </div>

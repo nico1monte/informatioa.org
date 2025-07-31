@@ -5,6 +5,12 @@
     transform-style: preserve-3d;
 }
 
+@media (max-width: 600px) {
+    .container {
+        margin: 40px 0;
+    }
+}
+
 .box-card {
     width: 200px;
     height: 200px;
@@ -31,6 +37,7 @@
     border: 2px solid #3299fb;
     transition: all 0.3s ease;
     overflow: hidden;
+    padding: 12px;
 }
 
 .face::before {
