@@ -11,12 +11,14 @@ ESP | [ENG](https://github.com/nico1monte/informatioa.org/blob/dev/README.md)
   </picture>
 </div>
 
-### ADVERTENCIA, ESTO PUEDE CONTENER SPOILERS. POR FAVOR, NO LE CUENTES ESTO A OTRAS PERSONAS.
+```
+ADVERTENCIA, ESTO PUEDE CONTENER SPOILERS. POR FAVOR, NO LE CUENTES ESTO A OTRAS PERSONAS.
+```
 
 Este es el repositorio del sitio de un estudio que crea juegos y aplicaciones. El nombre que se ve en el repositorio es Informatioa. Sí, Informatioa.
-
-### ESTA INFORMACIÓN NO TIENE MÁS SPOILERS.
-
+```
+ESTA INFORMACIÓN NO TIENE MÁS SPOILERS.
+```
 ## Proyectos
 <div align="center">
   <picture>

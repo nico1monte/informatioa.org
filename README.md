@@ -11,12 +11,15 @@ ENG | [ESP](https://github.com/nico1monte/informatioa.org/blob/dev/README.es_ES.
   </picture>
 </div>
 
-### WARNING, THIS CAN BE SPOILERS. PLEASE, DON'T SAY TO OTHERS PERSONS ABOUT THIS.
+```
+WARNING, THIS CAN BE SPOILERS. PLEASE, DON'T SAY TO OTHERS PERSONS ABOUT THIS.
+```
 
 This is a repository for a site of a studio that makes games and apps. The name that you can see on the repository name is Informatioa, Yes, Informatioa.
 
-
-### THIS INFORMATION DON'T HAVE MORE SPOILERS.
+```
+THIS INFORMATION DON'T HAVE MORE SPOILERS.
+```
 
 ## Projects
 <div align="center">
