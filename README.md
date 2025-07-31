@@ -49,3 +49,5 @@ Informatioa have an emailer that can send emails to persons on the time that thi
 
 Emailer repository:
 [Repository on GitHub](https://github.com/nico1monte/informatioa_emailer)
+
+Authors: [Click to view](https://github.com/nico1monte/informatioa.org/blob/dev/AUTHORS.md)

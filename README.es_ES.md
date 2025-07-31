@@ -48,3 +48,5 @@ Informatioa cuenta con un correo electrónico que permite enviar correos electr�
 
 Repositorio del correo electrónico:
 [Repositorio en GitHub](https://github.com/nico1monte/informatioa_emailer)
+
+Autores: [Haz click para ver](https://github.com/nico1monte/informatioa.org/blob/dev/AUTHORS.md)
