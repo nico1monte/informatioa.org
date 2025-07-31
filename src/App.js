@@ -38,7 +38,7 @@ function App() {
           <button type="button" className="App-header-button App-header-profile">
             <ProfileIcon />
           </button>
-          <a href="https://t.me/+lUostc2WfHIzMTdh" className="App-header-button App-header-contacts">
+          <a href="https://discord.gg/WS9mpEAd" className="App-header-button App-header-contacts">
             <ContactsIcon />
           </a>
           <div className="App-header-search">
