@@ -1,16 +1,15 @@
 .App-main {
-  padding: 28px 20px;
+  padding: 36px 20px;
 }
 
 .App-logo {
   height: 60px;
   width: 60px;
   margin-right: 20px;
-  padding: 10px 0;
 }
 
 .App-header {
-  padding: 16px 16px;
+  padding: 16px 20px;
   background-color: #181819;
   display: flex;
   align-items: center;
@@ -18,6 +17,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   gap: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
 }
 
 
@@ -69,15 +69,15 @@
 }
 
 .App-header-button {
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   background-color: transparent;
   border: none;
   color: white;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-  padding: 24px;
+  padding: 8px;
 }
 
 @media (max-width: 600px) {
@@ -97,8 +97,14 @@
 .App-header-controls {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap:12px;
   flex: 1;
+}
+
+@media (max-width: 600px) {
+  .App-header-controls {
+    flex-direction: row-reverse;
+  }
 }
 
 
@@ -108,12 +114,15 @@
 
 .App-header-search {
   width: 450px;
+  padding-left: 28px;
 }
 
 @media (max-width: 600px) {
   .App-header-search {
     width: auto;
     flex:1;
+    padding-left: 0;
+    padding-right: 12px;
   }
 }
 
@@ -131,7 +140,7 @@
 }
 
 .App-header-search input::placeholder {
-  color: black;
+  color: #484848;
 }
 
 .App-main-title {
@@ -145,7 +154,7 @@
 
 .App-main-content {
   display: flex;
-  gap: 24px;
+  gap: 60px;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
 }
