@@ -26,7 +26,7 @@ function App() {
       <header className="App-header">
         <div className="App-logo-container">
           <img
-            src={'/icons/logo-animated.gif'}
+            src={'./icons/logo-animated.gif'}
             className="App-logo"
             alt="logo"
           />
@@ -56,7 +56,7 @@ function App() {
         <h2 className="App-main-title">All projects of Informatioa:</h2>
         <div className='App-main-content'>
           {filteredProjects.length === 0 && <div className="App-error-on-find-container">
-            <img className='App-error-on-find' src={'/icons/error_on_find.png'} alt="no projects" />
+            <img className='App-error-on-find' src={'./icons/error_on_find.png'} alt="no projects" />
             No projects found
           </div>}
           <div>
