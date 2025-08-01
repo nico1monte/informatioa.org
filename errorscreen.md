@@ -4,6 +4,8 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./public/icons/error.png">
     <img alt="error image" src="./public/icons/error.png">
+</div>
+
 Sorry! Error.
 
 Note:
