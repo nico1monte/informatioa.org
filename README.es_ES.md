@@ -50,3 +50,8 @@ Repositorio del correo electrónico:
 [Repositorio en GitHub](https://github.com/nico1monte/informatioa_emailer)
 
 Autores: [Haz click para ver](https://github.com/nico1monte/informatioa.org/blob/dev/AUTHORS.md)
+
+## Nuestros colaboradores ＜（＾－＾）＞
+<p align="left">
+<a href="https://github.com/nico1monte/informatioa.org/graphs/contributors"><img alt="Colaboradores" src="./public/icons/portable_authors.PNG" width="50px"/></a>
+</p>
