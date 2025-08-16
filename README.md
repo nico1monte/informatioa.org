@@ -51,3 +51,8 @@ Emailer repository:
 [Repository on GitHub](https://github.com/nico1monte/informatioa_emailer)
 
 Authors: [Click to view](https://github.com/nico1monte/informatioa.org/blob/dev/AUTHORS.md)
+
+## Our contributors ＜（＾－＾）＞
+<p align="left">
+  <a href="https://github.com/nico1monte/informatioa.org/graphs/contributors"><img alt="Contributors" src="./public/icons/portable_authors.PNG" width="50px"/></a>
+</p>
